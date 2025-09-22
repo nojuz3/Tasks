@@ -1,0 +1,58 @@
+.todo-container{
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.input-container{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+input{
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.addbutton{
+  padding: 8px 16px;
+  margin-left: 8px;
+  font-size: 16px;
+  border: none;
+  background-color: #730ab9;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.deletebutton{
+  margin: 5px;
+  padding: 4px 8px;
+  font-size: 14px;
+  border: none;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.movebutton{
+  padding: 4px 8px;
+  font-size: 14px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.text{
+  font-size: 18px;
+  margin: 10px 0;
+  display: inline-block;
+  width: 70%;
+}
